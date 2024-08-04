@@ -65,7 +65,7 @@ func ExportHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Header().Set("Content-Type", "text/plain")
-	w.Header().Set("Content-Disposition", "attachment; filename=ASCII-ART-WEB.txt")
+	w.Header().Set("Content-Disposition", "attachment; filename=ASCII-GEN.txt")
 	w.Header().Set("Content-Length", fmt.Sprintf("%d", len(output)))
 
 	_, err := w.Write([]byte(output))
