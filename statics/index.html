@@ -33,7 +33,7 @@
             <br>
             <form method="POST" action="/export">
                 <input type="hidden" name="output" value="{{.OutputText}}">
-                <button type="submit" name="format" value="txt" class="btn btn-large export-btn">TXT</button>
+                <button type="submit" name="format" value="txt" class="btn btn-large export-btn" {{if eq .OutputText ""}}disabled{{end}}>TXT</button>
             </form>
         </div>
     </div>
