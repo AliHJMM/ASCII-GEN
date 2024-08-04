@@ -24,20 +24,13 @@ func ExportHandler(w http.ResponseWriter, r *http.Request) {
 	output := r.FormValue("output")
 	format := r.FormValue("format")
 
-	var contentType string
-	var fileExtension string
-
-	switch format {
-	case "txt":
-		contentType = "text/plain"
-		fileExtension = "txt"
-	case "doc":
-		contentType = "application/msword"
-		fileExtension = "doc"
-	default:
+	if format != "txt" {
 		renderErrorPage(w, "Unsupported format", http.StatusBadRequest)
 		return
 	}
+
+	contentType := "text/plain"
+	fileExtension := "txt"
 
 	w.Header().Set("Content-Type", contentType)
 	w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=ASCII-ART-WEB.%s", fileExtension))

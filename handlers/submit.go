@@ -10,18 +10,19 @@ import (
 func Submit(w http.ResponseWriter, r *http.Request) {
 	if r.URL.Path != "/ascii-art" {
 		http.NotFound(w, r)
-		return
+		return	
 	}
 	if r.Method != "POST" {
 		renderErrorPage(w, "Method Not Allowed", http.StatusMethodNotAllowed)
 		return
 	}
-
+	
 	err := r.ParseForm()
 	if err != nil {
 		renderErrorPage(w, "Internal Server Error", http.StatusInternalServerError)
 		return
 	}
+	
 	text := r.FormValue("text")
 	format := r.FormValue("format")
 	output, err := functions.Ascii(text, format)
