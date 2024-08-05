@@ -26,7 +26,7 @@ ASCII ART is created by using ASCII banner templates stored as text files. Each 
 
 - `GET /`: Serves the main HTML page where users can input text and select a banner.
 - `POST /ascii-art`: Processes the input text and banner selection, generates the ASCII ART, and displays the result.
-- `POST /export`: Facilitates exporting ASCII ART creations in either plain text (txt) or document (doc) format for user download.
+- `POST /export`: Facilitates exporting ASCII ART creations in either plain text (txt) format for user download.
 
 
 #### HTTP Status Codes
