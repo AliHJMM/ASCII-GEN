@@ -1,4 +1,4 @@
-# ASCII ART WEB
+# ASCII-GEN
 
 
 # 💻 Tech Stack:
@@ -6,7 +6,7 @@
 
 
 ## DESCRIPTION
-ASCII Art Web is a dynamic web application designed for creating artistic ASCII representations from user-provided text inputs. It offers a variety of banner styles to transform plain text into visually appealing ASCII ART. Users can effortlessly generate, customize, and export their ASCII ART creations in both text and document formats.
+ASCII-GEN is a dynamic web application designed for creating artistic ASCII representations from user-provided text inputs. It offers a variety of banner styles to transform plain text into visually appealing ASCII ART. Users can effortlessly generate, customize, and export their ASCII ART creations in both text and document formats.
 
 ## AUTHORS
 - [Ali Hasan Jasim](https://github.com/AliHJMM)
@@ -25,7 +25,7 @@ ASCII Art Web is a dynamic web application designed for creating artistic ASCII 
 
 #### Algorithm
 
-ASCII ART is created by using ASCII banner templates stored as text files. Each template provides unique ASCII representations for characters. The server reads these templates, converts characters into ASCII ART, and creates the artwork using the user's text input.
+ASCII-GEN is created by using ASCII banner templates stored as text files. Each template provides unique ASCII representations for characters. The server reads these templates, converts characters into ASCII ART, and creates the artwork using the user's text input.
 
 #### HTTP Endpoints
 
