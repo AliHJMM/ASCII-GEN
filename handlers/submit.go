@@ -26,7 +26,7 @@ func Submit(w http.ResponseWriter, r *http.Request) {
 	text := r.FormValue("text")
 	format := r.FormValue("format")
 	output, err := functions.Ascii(text, format)
-	if text == "" || len(text) > 250 || (format != "standard" && format != "shadow" && format != "thinkertoy") {
+	if text == "" || len(text) > 251 || (format != "standard" && format != "shadow" && format != "thinkertoy") {
 		renderErrorPage(w, "Bad Request: Check your input", http.StatusBadRequest)
 		return
 	}
