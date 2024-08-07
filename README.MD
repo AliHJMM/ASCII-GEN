@@ -32,6 +32,6 @@ ASCII-GEN is created by using ASCII banner templates stored as text files. Each 
 ![Normal](READMEImages/Normal.png) 
 ![A](READMEImages/A.png) 
 ![Download](READMEImages/Download.png) 
+![TxtFile](READMEImages/TxtFile.png) 
 ![404](READMEImages/404.png) 
 ![405](READMEImages/405.png) 
-![TxtFile](READMEImages/TxtFile.png) 
