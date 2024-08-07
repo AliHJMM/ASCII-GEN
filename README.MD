@@ -28,3 +28,10 @@ ASCII-GEN is a dynamic web application designed for creating artistic ASCII repr
 ASCII-GEN is created by using ASCII banner templates stored as text files. Each template provides unique ASCII representations for characters. The server reads these templates, converts characters into ASCII ART, and creates the artwork using the user's text input.
 
 ### Website Walkthrough
+
+![Normal](READMEImages/Normal.png) 
+![A](READMEImages/A.png) 
+![Download](READMEImages/Download.png) 
+![404](READMEImages/404.png) 
+![405](READMEImages/405.png) 
+![TxtFile](READMEImages/TxtFile.png) 
