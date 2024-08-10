@@ -9,7 +9,7 @@
 ASCII-GEN is a dynamic web application designed for creating artistic ASCII representations from user-provided text inputs. It offers a variety of banner styles to transform plain text into visually appealing ASCII ART. Users can effortlessly generate, customize, and export their ASCII ART creations in both text and document formats.
 
 ## AUTHORS
-- [Ali Hasan Jasim](https://github.com/AliHJMM)
+- [Ali Hasan](https://github.com/AliHJMM)
 - [Habib Mansoor](https://github.com/7abib04)
 - [Husain Ali](https://github.com/hujaafar)
 
